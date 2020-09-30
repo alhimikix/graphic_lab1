@@ -1,4 +1,4 @@
-package lab1;
+package xyz.myfur.graphic;
 
 /**
  * Created by eugen on 31.08.2016.
@@ -26,5 +26,13 @@ public class Point {
 
     public void setY(double y) {
         this.y = y;
+    }
+
+    @Override
+    public String toString() {
+        return "Point{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
     }
 }
